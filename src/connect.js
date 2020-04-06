@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const API_PORT = process.env.API_PORT || 8011;
+const API_PORT = process.env.API_PORT || 8001;
 const API_HOST = process.env.API_HOST || 'localhost'
 
 export const get = (url) => {
